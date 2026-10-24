@@ -1,0 +1,8 @@
+Product photography: DummyJSON demonstration product dataset.
+Source: https://dummyjson.com/products/category/fragrances
+Images: https://cdn.dummyjson.com/product-images/fragrances/
+Calvin Klein CK One; Chanel Coco Noir; Dior J'adore; Dolce & Gabbana Dolce Shine; Gucci Bloom.
+Photos used as visual references in a private store demonstration. Prices, volumes and store availability are not verified commercial offers.
+
+Additional photography and descriptions: Dossier official catalog, https://13scents.myshopify.com/products.json and https://dossier.co/products/{handle}
+Golden Amber Oud, Tropical Oud, Oud de Rose, Gourmand Marshmallow, Woody Cypress.

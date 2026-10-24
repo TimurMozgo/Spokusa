@@ -1,0 +1,3 @@
+Five Dossier covers were edited using the built-in ImageGen tool to remove decorative backgrounds. Original source photographs remain in the gallery assets.
+Prompt used for each: background-extraction; remove only background, ingredients, props and external shadows; preserve the complete original bottle, cap, glass and label; one upright centered bottle on genuine transparent alpha; square canvas; no redesign or added text.
+Files: cover-golden-amber-oud.png, cover-tropical-oud.png, cover-oud-de-rose.png, cover-gourmand-marshmallow.png, cover-woody-cypress.png.

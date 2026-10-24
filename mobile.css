@@ -1,0 +1,48 @@
+/* Every catalog cover is a bottle cutout on this exact shared surface. */
+.card .art{background:#e9ddd3!important;position:relative;display:grid;place-items:center;isolation:isolate}
+.card .art .perfume-photo{position:absolute;inset:0;width:100%!important;height:100%!important;margin:0!important;padding:14% 11% 9%;object-fit:contain!important;mix-blend-mode:normal;filter:none;box-sizing:border-box}
+.card .art .tag{max-width:calc(100% - 62px);font-size:8px;line-height:1.5;white-space:normal}
+.card .name{height:auto;min-height:2.4em;display:block;overflow:visible;-webkit-line-clamp:unset;overflow-wrap:break-word}
+.card .notes{height:auto;min-height:3.2em;display:block;overflow:visible;-webkit-line-clamp:unset;overflow-wrap:break-word}
+.card .maker{height:auto;overflow-wrap:anywhere}
+.modal-toolbar{display:contents}
+.product-gallery,.details>div{min-width:0}
+.gallery-slide img{object-fit:contain}
+.gallery-slide img[src*="cover-"]{padding:8%;box-sizing:border-box}
+.gallery-thumbs img[src*="cover-"]{object-fit:contain;padding:5%}
+@media(max-width:700px){
+ html,body{max-width:100%;overflow-x:clip}
+ header{padding:18px 16px;min-height:86px}
+ main{padding:16px 14px calc(110px + env(safe-area-inset-bottom))}
+ .grid,.profile-favs .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}
+ .card .name{font-size:clamp(20px,5.6vw,25px);line-height:1.15;min-height:3.45em}
+ .card .maker{font-size:8px;letter-spacing:1.1px;min-height:2.8em}
+ .card .notes{font-size:10px;line-height:1.55;min-height:3.1em;margin:8px 0 12px}
+ .card .price{font-size:13px;white-space:normal;line-height:1.4}
+ .card .price small{display:block;font-size:10px}
+ .card .plus{width:44px;height:44px;font-size:26px}
+ .card .favorite{width:38px;height:38px;right:7px;top:7px}
+ .card .art .tag{top:12px;left:10px;max-width:calc(100% - 58px);font-size:7px;letter-spacing:.6px}
+ .searchbar{gap:8px}.search{min-width:0;padding:0 10px}.search input{min-width:0;font-size:12px}select{width:112px;flex-shrink:0}
+ .hero{padding:26px 20px}.hero h1{font-size:clamp(34px,10.5vw,43px)}.hero-art{right:-35px;width:210px}
+ .benefits{flex-wrap:wrap;justify-content:center;gap:10px 18px;text-align:center}
+ nav{padding-bottom:max(10px,env(safe-area-inset-bottom));width:100%;max-width:100%}nav button{padding:9px 6px;min-height:56px}
+ .overlay{padding:0;align-items:stretch;justify-content:stretch;inset:0}
+ .modal{width:100%;height:100dvh;max-height:100dvh;max-width:none;border:0;border-radius:0;padding:0;display:flex;flex-direction:column;overflow:hidden}
+ .modal-toolbar{display:flex;flex:0 0 auto;align-items:center;justify-content:space-between;min-height:64px;padding:calc(10px + env(safe-area-inset-top)) 16px 10px;background:#211a1e;border-bottom:1px solid var(--line);z-index:5}
+ .modal-toolbar:before{content:'SPOKUSA';font:22px 'Cormorant Garamond',Georgia,serif;letter-spacing:1px;color:var(--rose)}
+ .modal .close{position:static;margin:0;width:44px;height:44px;font-size:28px;flex-shrink:0;background:#ffffff0c}
+ #modalContent{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:18px 18px calc(28px + env(safe-area-inset-bottom));scrollbar-width:thin}
+ .dialog-outgoing{overflow:hidden!important;z-index:2;bottom:0}
+ .details{display:block}.details h2{font-size:34px;line-height:1.1;overflow-wrap:break-word}
+ .product-gallery{margin:0 0 22px}.gallery-stage{width:100%;height:auto;aspect-ratio:1;max-height:none;border-radius:9px}
+ .gallery-arrow{width:44px;height:44px}.gallery-arrow.prev{left:10px}.gallery-arrow.next{right:10px}
+ .gallery-thumbs{gap:14px;margin-top:16px}.gallery-thumbs button{width:56px;height:56px}
+ .gallery-hint{font-size:10px}.description{font-size:13px;line-height:1.8}.volumes .chip{min-height:44px;min-width:65px;font-size:12px}
+ .cta{min-height:48px}.cart-row{flex-wrap:wrap;gap:12px}.cart-row .cart-info{min-width:100px}.qty button{width:36px;height:38px}.cart-info .name{font-size:21px;overflow-wrap:break-word}
+ .checkout-summary>div{font-size:11px}.checkout-summary span{min-width:0}.total{gap:16px;font-size:17px}
+ .profile-section .section-title{align-items:start;flex-wrap:wrap}.profile-section h2{font-size:26px}.all-orders{min-height:44px}
+ .order-top{gap:8px;flex-wrap:wrap}.order-date{font-size:10px}.order-bottom{gap:10px}.order-products{max-width:65%;overflow-wrap:break-word}
+ .footer-contacts{gap:0}.footer-contacts a{min-height:44px;display:flex;align-items:center}
+}
+@media(max-width:359px){.grid{gap:24px 10px}.card .name{font-size:20px}.card .price{font-size:12px}.hero-art{right:-55px;opacity:.75}.hero-copy{max-width:205px}.card .art .tag{font-size:6px}.order-price{font-size:11px}.search input{font-size:11px}}
